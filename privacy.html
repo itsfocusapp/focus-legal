@@ -1,68 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Focus</title>
+<title>Focus — Privacy Policy</title>
 <style>
-  body { background:#0a0a0c; color:#f2f2f0; font:16px/1.65 -apple-system, "Helvetica Neue", Arial, sans-serif; margin:0; -webkit-font-smoothing:antialiased; }
-  .wrap { max-width:640px; margin:0 auto; padding:64px 24px 96px; }
-  .wordmark { font-weight:800; letter-spacing:.45em; font-size:14px; }
-  h1 { font-size:28px; font-weight:600; margin:18px 0 4px; }
-  .date { color:#8a8a8e; font-size:14px; margin-bottom:36px; }
-  h2 { font-size:17px; font-weight:600; margin:34px 0 10px; }
-  p, li { color:#c9c9cc; }
-  strong { color:#f2f2f0; font-weight:600; }
-  ul { padding-left:20px; }
-  a { color:#f2f2f0; }
-  .lede { color:#f2f2f0; font-size:17px; }
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0a0a0b; color: #e8e8ea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; padding-inline: 20px; padding-block: 56px 96px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  .brand { font-weight: 800; letter-spacing: 6px; font-size: 13px; color: #9a9aa2; }
+  h1 { font-size: 30px; letter-spacing: -0.5px; margin: 10px 0 4px; }
+  .updated { color: #7d7d85; font-size: 14px; margin: 0 0 40px; }
+  h2 { font-size: 19px; margin: 38px 0 10px; letter-spacing: -0.3px; }
+  p, li { color: #cfcfd4; }
+  strong { color: #fff; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  a { color: #e8e8ea; text-underline-offset: 3px; }
+  .lead { color: #e8e8ea; font-size: 17px; }
+  hr { border: none; border-top: 1px solid #1e1e22; margin: 44px 0 0; }
+  footer { color: #7d7d85; font-size: 14px; margin-top: 20px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <div class="wordmark">F O C U S</div>
+<main>
+  <div class="brand">FOCUS</div>
   <h1>Privacy Policy</h1>
-  <div class="date">Last updated: September 7, 2026</div>
+  <p class="updated">Last updated: September 12, 2026</p>
 
-  <p class="lede"><strong>Focus collects no data.</strong> Not your name, not your usage, not your
-  screen time. Everything the app knows lives on your device and nowhere else.</p>
+  <h2>The short version</h2>
+  <p class="lead">Focus is private by design. Your name, your app usage, and your Screen Time data
+  stay on your device. The only things that ever leave the app are anonymous analytics and your
+  subscription status — never linked to your identity, and never used to track you across other
+  apps or companies.</p>
 
-  <h2>What stays on your device</h2>
+  <h2>Stays on your device (never sent anywhere)</h2>
   <ul>
-    <li><strong>Your name and age</strong> (optional, from onboarding) — stored only on your device, used only to personalize the interface.</li>
-    <li><strong>Your focus sessions, schedules, and blocklist</strong> — stored only on your device.</li>
-    <li><strong>Your Screen Time data</strong> — this never reaches us at all. Blocking and screen-time charts run on Apple's Screen Time framework (FamilyControls, ManagedSettings, DeviceActivity). Apple's system renders those numbers inside a sandbox on your device; the app itself cannot read, export, or transmit them. This is enforced by iOS, not by our goodwill.</li>
+    <li><strong>Your name and age</strong> (optional, from onboarding) — on your device only, used
+    to personalize the interface.</li>
+    <li><strong>Your focus sessions, schedules, and blocklist</strong> — on your device only.</li>
+    <li><strong>Your Screen Time data</strong> — this never reaches us. Blocking and screen-time
+    charts run on Apple's Screen Time framework (FamilyControls, ManagedSettings, DeviceActivity);
+    iOS renders those numbers inside an on-device sandbox that the app cannot read, export, or
+    transmit. This is enforced by iOS, not by our goodwill.</li>
   </ul>
 
-  <h2>What we don't do</h2>
+  <h2>What we collect (anonymous)</h2>
   <ul>
-    <li>No accounts, no sign-in.</li>
-    <li>No analytics, no trackers, no third-party SDKs that phone home.</li>
-    <li>No servers of ours — the app makes no network calls to us.</li>
-    <li>No selling, sharing, or processing of personal data, because none is collected.</li>
+    <li><strong>Purchases and subscription status</strong> — through RevenueCat, our subscription
+    provider, so your Focus Pro access works and can be restored. This includes your purchase
+    history and an anonymous, randomly generated app-user ID together with your device's vendor
+    identifier (IDFV). It is not linked to your name or email.</li>
+    <li><strong>Product interaction (usage analytics)</strong> — through PostHog, we collect
+    anonymous events about how the app is used (for example onboarding steps completed, paywall
+    views, app opens) to improve the app. These events are anonymous, are not linked to your
+    identity, and are never used for advertising or cross-app tracking — which is why the app shows
+    no App Tracking Transparency prompt.</li>
   </ul>
+  <p>We do not collect your contacts, photos, location, or Screen Time data. We do not sell or
+  share personal data. We use no advertising SDKs.</p>
 
   <h2>Purchases</h2>
-  <p>Subscriptions are processed entirely by Apple through your Apple ID. We never see your payment
-  details. Manage or cancel anytime in Settings → Apple ID → Subscriptions.</p>
+  <p>Subscriptions are processed by Apple through your Apple ID. We never see your payment details.
+  Manage or cancel anytime in Settings → Apple ID → Subscriptions.</p>
 
   <h2>Notifications</h2>
-  <p>Local notifications (session endings, timer alarms, a one-time trial reminder) are scheduled on
-  your device. Nothing about them leaves it.</p>
+  <p>Local notifications (session endings, timer alarms, a one-time trial reminder) are scheduled
+  on your device.</p>
 
   <h2>Apple Music search (Timer alarms)</h2>
   <p>If you search Apple Music for a custom alarm sound, that search goes directly to Apple via
   MusicKit under Apple's own privacy policy. We don't receive or store your searches.</p>
 
   <h2>Data deletion</h2>
-  <p>Deleting the app deletes everything, because everything lives inside it.</p>
+  <p>Deleting the app removes all on-device data. To request deletion of the anonymous analytics or
+  subscription records associated with your device, email us and we'll remove them.</p>
 
   <h2>Changes</h2>
-  <p>If this policy ever changes (for example, if we add optional cloud sync), the change will be
-  announced in the app before it takes effect.</p>
+  <p>If this policy ever changes, the change will be announced in the app before it takes effect.</p>
 
-  <h2>Contact</h2>
-  <p><a href="mailto:kayaanil637@gmail.com">kayaanil637@gmail.com</a></p>
-</div>
+  <hr>
+  <footer>Questions: <a href="mailto:kayaanil637@gmail.com">kayaanil637@gmail.com</a></footer>
+</main>
 </body>
 </html>
