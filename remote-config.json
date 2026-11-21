@@ -1,6 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "enabled": true,
   "strings": {},
-  "flags": {}
+  "flags": {
+    "exit_offer": false
+  }
 }
