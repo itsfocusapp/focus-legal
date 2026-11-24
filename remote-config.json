@@ -1,8 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "enabled": true,
   "strings": {},
   "flags": {
-    "exit_offer": true
+    "exit_offer": true,
+    "notification_prompt": "paywall"
   }
 }
