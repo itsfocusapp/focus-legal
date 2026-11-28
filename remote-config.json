@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "enabled": true,
   "strings": {
     "en": {
@@ -48,7 +48,7 @@
       "Your special offer ends tonight ⏳": "L'offerta scade stasera ⏳",
       "Your goals don't live on your For You page.": "Obiettivi? Non su TikTok",
       "One hour locked in beats five hours of scrolling.": "1 h di focus > 5 h di scroll",
-      "New week. Same scrolling? 👀": "Altra settimana di scroll?",
+      "New week. Same scrolling? 👀": "Altra settimana di scroll? 👀",
       "Still scrolling at midnight? 🌙": "Scroll a mezzanotte? 🌙",
       "Your future self is watching 👀": "Il te futuro ti guarda 👀",
       "Where did today's hours go? 👀": "Dove sono finite le ore? 👀",
@@ -95,16 +95,16 @@
       "One hour locked in beats five hours of scrolling.": "1 h Fokus > 5 h Scrollen",
       "New week. Same scrolling? 👀": "Neue Woche, wieder scrollen?",
       "Still scrolling at midnight? 🌙": "Scrollen um Mitternacht? 🌙",
-      "Your future self is watching 👀": "Dein Zukunfts-Ich schaut zu",
+      "Your future self is watching 👀": "Dein Zukunfts-Ich sieht zu 👀",
       "Where did today's hours go? 👀": "Wo sind die Stunden hin? 👀",
-      "Everyone who wins locked in first.": "Gewinner fokussieren zuerst",
+      "Everyone who wins locked in first.": "Erst Fokus, dann gewinnen",
       "Last chance: your offer ends tonight ⏳": "Letzte Chance ⏳",
       "Your apps are winning. For now. 😤": "Deine Apps gewinnen 😤",
       "Who's winning today: you or TikTok?": "Du oder TikTok heute?",
       "The scroll never ends. Your day does.": "Dein Tag endet, Scrollen nie",
       "Two weeks from now you'll wish you started today.": "Warte nicht noch zwei Wochen",
       "What would one focused hour a day change?": "Was bringt 1 Stunde Fokus?",
-      "We'll stop reminding you.": "Wir hören auf zu erinnern.",
+      "We'll stop reminding you.": "Wir erinnern dich nicht mehr.",
       "Your Pro ends tonight ⏳": "Pro endet heute Nacht ⏳"
     },
     "pt-BR": {
@@ -114,8 +114,8 @@
       "Your special offer ends tonight ⏳": "A oferta acaba hoje ⏳",
       "Your goals don't live on your For You page.": "Suas metas não estão no FYP",
       "One hour locked in beats five hours of scrolling.": "1 h de foco > 5 h de rolagem",
-      "New week. Same scrolling? 👀": "Semana nova, mesma rolagem?",
-      "Still scrolling at midnight? 🌙": "Rolando à meia-noite? 🌙",
+      "New week. Same scrolling? 👀": "Semana nova, mesmo feed? 👀",
+      "Still scrolling at midnight? 🌙": "No feed à meia-noite? 🌙",
       "Your future self is watching 👀": "Seu eu futuro está vendo 👀",
       "Where did today's hours go? 👀": "Cadê as horas de hoje? 👀",
       "Everyone who wins locked in first.": "Vencedores focam primeiro",
