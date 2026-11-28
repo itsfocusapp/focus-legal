@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "enabled": true,
   "strings": {
     "en": {
@@ -131,6 +131,7 @@
   },
   "flags": {
     "exit_offer": true,
-    "notification_prompt": "paywall"
+    "notification_prompt": "paywall",
+    "instant_offer_push": false
   }
 }
